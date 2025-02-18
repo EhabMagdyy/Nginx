@@ -78,21 +78,6 @@ server {
 # You can move that to a different file under sites-available/ and symlink that
 # to sites-enabled/ to enable it.
 #
-# My Custom Server
-server {
-	listen 81;
-	listen [::]:81;
-
-	server_name example.com;
-
-	root /var/www/html;
-	index ehab.html index.html;
-	
-
-	location / {
-		try_files $uri $uri/ =404;
-	}
-}
 
 # Reverse Proxy - Load Balancing Example
 server {
