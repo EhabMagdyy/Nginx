@@ -1,3 +1,4 @@
+## 1. Nginx as Web Server
 ### Files locations (in ubuntu)
 ```bash
 # nginx.conf
